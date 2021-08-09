@@ -26,12 +26,15 @@
             <category term="基础" scheme="https://flame-0o.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <category term="python" scheme="https://flame-0o.github.io/tags/python/" />
             <pubDate>Mon, 09 Aug 2021 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;小白学Python（一）&#34;&gt;&lt;a href=&#34;#小白学Python（一）&#34; class=&#34;headerlink&#34; title=&#34;小白学Python（一）&#34;&gt;&lt;/a&gt;小白学Python（一）&lt;/h1&gt;&lt;h2 id=&#34;输入输出&#34;&gt;&lt;a href=&#34;#输入输出&#34; class=&#34;headerlink&#34; title=&#34;输入输出&#34;&gt;&lt;/a&gt;输入输出&lt;/h2&gt;&lt;p&gt;待更新&lt;/p&gt;
-&lt;h2 id=&#34;变量&#34;&gt;&lt;a href=&#34;#变量&#34; class=&#34;headerlink&#34; title=&#34;变量&#34;&gt;&lt;/a&gt;变量&lt;/h2&gt;&lt;p&gt;待更新&lt;/p&gt;
-&lt;h2 id=&#34;简单数据类型&#34;&gt;&lt;a href=&#34;#简单数据类型&#34; class=&#34;headerlink&#34; title=&#34;简单数据类型&#34;&gt;&lt;/a&gt;简单数据类型&lt;/h2&gt;&lt;p&gt;待更新&lt;/p&gt;
-&lt;h2 id=&#34;第一个python程序&#34;&gt;&lt;a href=&#34;#第一个python程序&#34; class=&#34;headerlink&#34; title=&#34;第一个python程序&#34;&gt;&lt;/a&gt;第一个python程序&lt;/h2&gt;&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;print(&amp;quot;Hello World!&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
- ]]></description>
+            <description><![CDATA[ &lt;h1 id=&#34;小白学python一&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#小白学python一&#34;&gt;#&lt;/a&gt; 小白学 Python（一）&lt;/h1&gt;
+&lt;h2 id=&#34;输入输出&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#输入输出&#34;&gt;#&lt;/a&gt; 输入输出&lt;/h2&gt;
+&lt;p&gt;待更新&lt;/p&gt;
+&lt;h2 id=&#34;变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#变量&#34;&gt;#&lt;/a&gt; 变量&lt;/h2&gt;
+&lt;p&gt;待更新&lt;/p&gt;
+&lt;h2 id=&#34;简单数据类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#简单数据类型&#34;&gt;#&lt;/a&gt; 简单数据类型&lt;/h2&gt;
+&lt;p&gt;待更新&lt;/p&gt;
+&lt;h2 id=&#34;第一个python程序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一个python程序&#34;&gt;#&lt;/a&gt; 第一个 python 程序&lt;/h2&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Hello World!&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://flame-0o.github.io/Java/java%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%88%E4%B8%80%EF%BC%89/</guid>
@@ -41,53 +44,33 @@
             <category term="Java" scheme="https://flame-0o.github.io/tags/Java/" />
             <category term="基础" scheme="https://flame-0o.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <pubDate>Fri, 06 Aug 2021 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;Java的基础知识（一）&#34;&gt;&lt;a href=&#34;#Java的基础知识（一）&#34; class=&#34;headerlink&#34; title=&#34;Java的基础知识（一）&#34;&gt;&lt;/a&gt;Java的基础知识（一）&lt;/h1&gt;&lt;h2 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本文适合有一定编程理念的小伙伴搭配:coffee:食用。&lt;/p&gt;
-&lt;p&gt;刚开始学Java，建立使用Eclipse作为开发平台。&lt;/p&gt;
-&lt;h2 id=&#34;输入输出&#34;&gt;&lt;a href=&#34;#输入输出&#34; class=&#34;headerlink&#34; title=&#34;输入输出&#34;&gt;&lt;/a&gt;输入输出&lt;/h2&gt;&lt;p&gt;Java的输入输出主要按照流(stream)的模式来实现。其中数据的流向是按照计算机的方向确定的，流入计算机的数据流叫做输入流(inputStream)，由计算机发出的数据流叫做输出流(outputStream)。&lt;/p&gt;
-&lt;p&gt;编写java程序时，使用到相应的类就要导入相应的包，用&lt;code&gt;import&lt;/code&gt;导入(用Eclipse编写时，可以忽略此操作，Eclipse会自动帮你导入相应的包)。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;import java.util.Scanner;
-
-public class Main &amp;#123;
-    public static void main(String[] args) &amp;#123;
-        /******** 一个简单的例子 ********/
-        Scanner in = new Scanner(System.in);  // 实例化输入对象
-        int a = in.nextInt();                 // 定义a变量，类型为int；并用in读入一个整数，赋给a
-        System.out.println(a);                // 输出a
-        in.close();                           // 建议写，可以不写
-        /******************************/
-    &amp;#125;
-&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;输入&#34;&gt;&lt;a href=&#34;#输入&#34; class=&#34;headerlink&#34; title=&#34;输入&#34;&gt;&lt;/a&gt;输入&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;使用Scanner类&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这是Java5 的新特征，用来获取用户输入，是java比较常用、简单、用于输入的类，使用时需导入&lt;code&gt;java.util.Scanner&lt;/code&gt;。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;// 使用Scanner类获取输入，需先实例化一个Scanner对象
-Scanner in = new Scanner(System.in);
-// 接着调用Scanner类的方法读取输入，以下列出常用的一些方法：
-in.next()        // 输入字符串，以空格结束
-in.nextLine()    // 输入字符串，以enter结束
-in.nextInt()     // 输入一个整数
-in.nextDouble()  // 输入一个双精度数
-in.close()       // 关闭此扫描仪
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;更多方法可查看&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9tYW51YWwvamRrMTFhcGkvamF2YS5iYXNlL2phdmEvdXRpbC9TY2FubmVyLmh0bWw=&#34;&gt;Class Scanner&lt;/span&gt;{.label .blue}&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;使用BufferedReader类和InputStreamReader类&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在java中，用于用于处理数据流的类，使用时需导入&lt;code&gt;java.io.*&lt;/code&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;// 首先实例化BufferedReader类对象，它附属于标准输入流System.in
-BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-// 接着调用方法
-in.read()      // 读入单个字符
-in.readLine()  // 读入一个文本行，通过识别‘\n’(换行)或‘\r’(回车)认为某行已终止
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;输出&#34;&gt;&lt;a href=&#34;#输出&#34; class=&#34;headerlink&#34; title=&#34;输出&#34;&gt;&lt;/a&gt;输出&lt;/h3&gt;&lt;p&gt;java的输出比较简单，常用语句如下：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;System.out.print();                     // 无换行输出
-System.out.println();                   // 有换行输出
-System.out.printf(&amp;quot;格式化字符串&amp;quot;, 参数表); // 延续C语言风格的输出函数，用法与C语言类似
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;数据类型&#34;&gt;&lt;a href=&#34;#数据类型&#34; class=&#34;headerlink&#34; title=&#34;数据类型&#34;&gt;&lt;/a&gt;数据类型&lt;/h2&gt;&lt;h3 id=&#34;定义形式&#34;&gt;&lt;a href=&#34;#定义形式&#34; class=&#34;headerlink&#34; title=&#34;定义形式&#34;&gt;&lt;/a&gt;定义形式&lt;/h3&gt;&lt;p&gt;[修饰符] &amp;lt;类型名称&amp;gt; &amp;lt;变量名称&amp;gt; = &amp;lt;初始值&amp;gt;;&lt;br&gt;&lt;code&gt;int a, b; // 同时定义两个变量&lt;/code&gt;&lt;br&gt;&lt;code&gt;int a = 0; // 定义变量并赋值&lt;/code&gt;&lt;br&gt;&lt;code&gt;int a, b = 100, c;&lt;/code&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;java的基础知识一&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java的基础知识一&#34;&gt;#&lt;/a&gt; Java 的基础知识（一）&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;本文适合有一定编程理念的小伙伴搭配☕️食用。&lt;/p&gt;
+&lt;p&gt;刚开始学 Java，建立使用 Eclipse 作为开发平台。&lt;/p&gt;
+&lt;h2 id=&#34;输入输出&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#输入输出&#34;&gt;#&lt;/a&gt; 输入输出&lt;/h2&gt;
+&lt;p&gt;Java 的输入输出主要按照流 (stream) 的模式来实现。其中数据的流向是按照计算机的方向确定的，流入计算机的数据流叫做输入流 (inputStream)，由计算机发出的数据流叫做输出流 (outputStream)。&lt;/p&gt;
+&lt;p&gt;编写 java 程序时，使用到相应的类就要导入相应的包，用 &lt;code&gt;import&lt;/code&gt;  导入 (用 Eclipse 编写时，可以忽略此操作，Eclipse 会自动帮你导入相应的包)。&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;token namespace&#34;&gt;java&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;util&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Main&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;/******** 一个简单的例子 ********/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt; in &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;in&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 实例化输入对象&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; in&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;nextInt&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;                 &lt;span class=&#34;token comment&#34;&gt;// 定义 a 变量，类型为 int；并用 in 读入一个整数，赋给 a&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;                &lt;span class=&#34;token comment&#34;&gt;// 输出 a&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		in&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;close&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;                           &lt;span class=&#34;token comment&#34;&gt;// 建议写，可以不写&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;/******************************/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;输入&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#输入&#34;&gt;#&lt;/a&gt; 输入&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;使用 Scanner 类&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这是 Java5 的新特征，用来获取用户输入，是 java 比较常用、简单、用于输入的类，使用时需导入 &lt;code&gt;java.util.Scanner&lt;/code&gt; 。&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 使用 Scanner 类获取输入，需先实例化一个 Scanner 对象&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt; in &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;in&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 接着调用 Scanner 类的方法读取输入，以下列出常用的一些方法：&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;in&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;        &lt;span class=&#34;token comment&#34;&gt;// 输入字符串，以空格结束&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;in&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;nextLine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;    &lt;span class=&#34;token comment&#34;&gt;// 输入字符串，以 enter 结束&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;in&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;nextInt&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;     &lt;span class=&#34;token comment&#34;&gt;// 输入一个整数&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;in&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;nextDouble&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 输入一个双精度数&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;in&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;close&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;       &lt;span class=&#34;token comment&#34;&gt;// 关闭此扫描仪&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;更多方法可查看&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cucnVub29iLmNvbS9tYW51YWwvamRrMTFhcGkvamF2YS5iYXNlL2phdmEvdXRpbC9TY2FubmVyLmh0bWw=&#34;&gt; Class Scanner&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;使用 BufferedReader 类和 InputStreamReader 类&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 java 中，用于用于处理数据流的类，使用时需导入 &lt;code&gt;java.io.*&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 首先实例化 BufferedReader 类对象，它附属于标准输入流 System.in&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;BufferedReader&lt;/span&gt; in &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;BufferedReader&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;InputStreamReader&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;in&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 接着调用方法&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;in&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;read&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;      &lt;span class=&#34;token comment&#34;&gt;// 读入单个字符&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;in&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;readLine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 读入一个文本行，通过识别‘\n’(换行) 或‘\r’(回车) 认为某行已终止&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;输出&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#输出&#34;&gt;#&lt;/a&gt; 输出&lt;/h3&gt;
+&lt;p&gt;java 的输出比较简单，常用语句如下：&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;                     &lt;span class=&#34;token comment&#34;&gt;// 无换行输出&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;                   &lt;span class=&#34;token comment&#34;&gt;// 有换行输出&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;printf&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;格式化字符串&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; 参数表&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 延续 C 语言风格的输出函数，用法与 C 语言类似&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;数据类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据类型&#34;&gt;#&lt;/a&gt; 数据类型&lt;/h2&gt;
+&lt;h3 id=&#34;定义形式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#定义形式&#34;&gt;#&lt;/a&gt; 定义形式&lt;/h3&gt;
+&lt;p&gt;[修饰符] &amp;lt; 类型名称 &amp;gt; &amp;lt; 变量名称 &amp;gt; = &amp;lt; 初始值 &amp;gt;;&lt;br /&gt;
+ &lt;code&gt;int a, b; // 同时定义两个变量&lt;/code&gt; &lt;br /&gt;
+ &lt;code&gt;int a = 0; // 定义变量并赋值&lt;/code&gt; &lt;br /&gt;
+ &lt;code&gt;int a, b = 100, c;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;final int a = 100; // 定义一个常量a，表示一旦初始化，值就不能修改了&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;类型名称&#34;&gt;&lt;a href=&#34;#类型名称&#34; class=&#34;headerlink&#34; title=&#34;类型名称&#34;&gt;&lt;/a&gt;类型名称&lt;/h3&gt;&lt;p&gt;Java是一种&lt;strong&gt;强类型语言&lt;/strong&gt;，所有变量在使用前必须定义或声明，所有变量必须具有确定的数据类型。数据类型表示在变量中可以存放什么样的数据，程序运行过程中也不能改变变量的类型。&lt;/p&gt;
+&lt;h3 id=&#34;类型名称&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#类型名称&#34;&gt;#&lt;/a&gt; 类型名称&lt;/h3&gt;
+&lt;p&gt;Java 是一种&lt;strong&gt;强类型语言&lt;/strong&gt;，所有变量在使用前必须定义或声明，所有变量必须具有确定的数据类型。数据类型表示在变量中可以存放什么样的数据，程序运行过程中也不能改变变量的类型。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;基本数据类型&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;基本数据类型&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -95,43 +78,47 @@ System.out.printf(&amp;quot;格式化字符串&amp;quot;, 参数表); // 延续C
 &lt;th&gt;数据范围&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
 &lt;td&gt;char&lt;/td&gt;
-&lt;td&gt;16位，存储Unicode码，用单引号赋值&lt;/td&gt;
+&lt;td&gt;16 位，存储 Unicode 码，用单引号赋值&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;boolean&lt;/td&gt;
-&lt;td&gt;只有true和false两个取值&lt;/td&gt;
+&lt;td&gt;只有 true 和 false 两个取值&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;byte&lt;/td&gt;
-&lt;td&gt;8位，最大存储数据量是255，存放的数据范围是-128~127之间&lt;/td&gt;
+&lt;td&gt;8 位，最大存储数据量是 255，存放的数据范围是 - 128~127 之间&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;short&lt;/td&gt;
-&lt;td&gt;16位，最大数据存储量是65536，数据范围是-32768~32767之间&lt;/td&gt;
+&lt;td&gt;16 位，最大数据存储量是 65536，数据范围是 - 32768~32767 之间&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;int&lt;/td&gt;
-&lt;td&gt;32位，最大数据存储容量是2的32次方减1，数据范围是负的2的31次方到正的2的31次方减1&lt;/td&gt;
+&lt;td&gt;32 位，最大数据存储容量是 2 的 32 次方减 1，数据范围是负的 2 的 31 次方到正的 2 的 31 次方减 1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;long&lt;/td&gt;
-&lt;td&gt;64位，最大数据存储容量是2的64次方减1，数据范围为负的2的63次方到正的2的63次方减1&lt;/td&gt;
+&lt;td&gt;64 位，最大数据存储容量是 2 的 64 次方减 1，数据范围为负的 2 的 63 次方到正的 2 的 63 次方减 1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;float&lt;/td&gt;
-&lt;td&gt;32位，数据范围在3.4e-45~1.4e38，直接赋值时必须在数字后加上f或F&lt;/td&gt;
+&lt;td&gt;32 位，数据范围在 3.4e-45~1.4e38，直接赋值时必须在数字后加上 f 或 F&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;double&lt;/td&gt;
-&lt;td&gt;64位，数据范围在4.9e-324~1.8e308，赋值时可以加d或D也可以不加&lt;/td&gt;
+&lt;td&gt;64 位，数据范围在 4.9e-324~1.8e308，赋值时可以加 d 或 D 也可以不加&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;变量名称&lt;/strong&gt;：又称标识符，只能由字母、数字、下划线构成，数字不能出现在第一个位置。此外，Java的保留字也不能用作标识符。&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;变量名称&lt;/strong&gt;：又称标识符，只能由字母、数字、下划线构成，数字不能出现在第一个位置。此外，Java 的保留字也不能用作标识符。&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Java的保留字列表&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Java 的保留字列表&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -142,7 +129,8 @@ System.out.printf(&amp;quot;格式化字符串&amp;quot;, 参数表); // 延续C
 &lt;th&gt;throws&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
 &lt;td&gt;boolean&lt;/td&gt;
 &lt;td&gt;double&lt;/td&gt;
 &lt;td&gt;import&lt;/td&gt;
@@ -212,353 +200,336 @@ System.out.printf(&amp;quot;格式化字符串&amp;quot;, 参数表); // 延续C
 &lt;td&gt;throw&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;数据运算&#34;&gt;&lt;a href=&#34;#数据运算&#34; class=&#34;headerlink&#34; title=&#34;数据运算&#34;&gt;&lt;/a&gt;数据运算&lt;/h2&gt;&lt;h3 id=&#34;算术运算&#34;&gt;&lt;a href=&#34;#算术运算&#34; class=&#34;headerlink&#34; title=&#34;算术运算&#34;&gt;&lt;/a&gt;算术运算&lt;/h3&gt;&lt;p&gt;java有5个算术运算符&lt;code&gt;+ - * / %&lt;/code&gt;，可以和赋值运算符 &lt;code&gt;=&lt;/code&gt; 结合起来，形成复合赋值运算。&lt;/p&gt;
+&lt;h2 id=&#34;数据运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据运算&#34;&gt;#&lt;/a&gt; 数据运算&lt;/h2&gt;
+&lt;h3 id=&#34;算术运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#算术运算&#34;&gt;#&lt;/a&gt; 算术运算&lt;/h3&gt;
+&lt;p&gt;java 有 5 个算术运算符 &lt;code&gt;+ - * / %&lt;/code&gt; ，可以和赋值运算符  &lt;code&gt;=&lt;/code&gt;  结合起来，形成复合赋值运算。&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;操作符&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;描述&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;操作符&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;+&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;加法 - 相加运算符两侧的值&lt;/td&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;+&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;加法 - 相加运算符两侧的值&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;-&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;减法 - 左操作数减去右操作数&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;减法 - 左操作数减去右操作数&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;*&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;乘法 - 相乘操作符两侧的值&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;*&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;乘法 - 相乘操作符两侧的值&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;/&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;除法 - 左操作数除以右操作数&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;/&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;除法 - 左操作数除以右操作数&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;％&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;取余 - 左操作数除以右操作数的余数&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;％&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;取余 - 左操作数除以右操作数的余数&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;++&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;自增: 操作数的值增加1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;++&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;自增：操作数的值增加 1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;–&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;自减: 操作数的值减少1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;--&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;自减：操作数的值减少 1&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;两个运算符中间不要有空格。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;a = 1 + 2;
-a = 3 - 2;
-a = 3 / 2;
-···
-a += 1;
-a = a + 1;
-···
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&#34;自增-amp-自减&#34;&gt;&lt;a href=&#34;#自增-amp-自减&#34; class=&#34;headerlink&#34; title=&#34;自增&amp;amp;自减&#34;&gt;&lt;/a&gt;自增&amp;amp;自减&lt;/h4&gt;&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;// 自增(值+1)
-a ++;    // 先参与运算，后+1
-++ a;    // 先+1，后参与运算
-
-/***举例子***/
-int a = 0, b = 1;
-a = b ++;  // 结果a为1，b为2；先执行 a = b ，再执行 b + 1
-a = ++ b;  // 结果a为2，b为2；先执行 b + 1 ，再执行 a = b
-/***********/
-
-// 自减(值-1)，与自增一样
-a --;
--- a;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&#34;强制类型转换&#34;&gt;&lt;a href=&#34;#强制类型转换&#34; class=&#34;headerlink&#34; title=&#34;强制类型转换&#34;&gt;&lt;/a&gt;强制类型转换&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;基本形式&lt;/strong&gt;&lt;/p&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;** 注意：** 两个运算符中间不要有空格。&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;···&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; a &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;···&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;自增自减&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自增自减&#34;&gt;#&lt;/a&gt; 自增 &amp;amp; 自减&lt;/h4&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 自增 (值 + 1)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;    &lt;span class=&#34;token comment&#34;&gt;// 先参与运算，后 + 1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;    &lt;span class=&#34;token comment&#34;&gt;// 先 + 1，后参与运算&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/*** 举例子 ***/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; b &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 结果 a 为 1，b 为 2；先执行 a = b ，再执行 b + 1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 结果 a 为 2，b 为 2；先执行 b + 1 ，再执行 a = b&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/***********/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 自减 (值 - 1)，与自增一样&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;a &lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;强制类型转换&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#强制类型转换&#34;&gt;#&lt;/a&gt; 强制类型转换&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;基本形式&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;(数据类型)变量或数据&lt;/code&gt;  ：会把&lt;code&gt;()&lt;/code&gt;右边第一个数据转换为&lt;code&gt;()&lt;/code&gt;里面的数据类型。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;(数据类型)变量或数据&lt;/code&gt;   ：会把 &lt;code&gt;()&lt;/code&gt;  右边第一个数据转换为 &lt;code&gt;()&lt;/code&gt;  里面的数据类型。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;浮点数和整数放在一起运算时，Java会将整数转换成浮点数，然后进行浮点数运算。&lt;/li&gt;
+&lt;li&gt;浮点数和整数放在一起运算时，Java 会将整数转换成浮点数，然后进行浮点数运算。&lt;/li&gt;
 &lt;li&gt;强制性转换的优先级高于四则运算。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;例子&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;double a = 1.0;
-double b = 2.0;
-int i = (int)a/b; // 会报错，运算解果为double，试图把一个double赋给一个int
-int i = (int)(a/b); // 正确写法
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;关系运算&#34;&gt;&lt;a href=&#34;#关系运算&#34; class=&#34;headerlink&#34; title=&#34;关系运算&#34;&gt;&lt;/a&gt;关系运算&lt;/h3&gt;&lt;p&gt;Java的关系运算符&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;double&lt;/span&gt; a &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1.0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;double&lt;/span&gt; b &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2.0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;a&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 会报错，运算解果为 double，试图把一个 double 赋给一个 int&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;a&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 正确写法&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;关系运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关系运算&#34;&gt;#&lt;/a&gt; 关系运算&lt;/h3&gt;
+&lt;p&gt;Java 的关系运算符&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;运算符&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;描述&lt;/th&gt;
-&lt;th&gt;例子(A=10,B=20)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;运算符&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
+&lt;th&gt;例子 (A=10,B=20)&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;==&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;检查如果两个操作数的值是否相等，如果相等则条件为真。&lt;/td&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;==&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;检查如果两个操作数的值是否相等，如果相等则条件为真。&lt;/td&gt;
 &lt;td&gt;(A == B) 为假。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;!=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;检查如果两个操作数的值是否相等，如果值不相等则条件为真。&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;!=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;检查如果两个操作数的值是否相等，如果值不相等则条件为真。&lt;/td&gt;
 &lt;td&gt;(A != B)  为真。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&amp;gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;检查左操作数的值是否大于右操作数的值，如果是那么条件为真。&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;检查左操作数的值是否大于右操作数的值，如果是那么条件为真。&lt;/td&gt;
 &lt;td&gt;(A&amp;gt; B) 为假。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&amp;lt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;检查左操作数的值是否小于右操作数的值，如果是那么条件为真。&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;lt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;检查左操作数的值是否小于右操作数的值，如果是那么条件为真。&lt;/td&gt;
 &lt;td&gt;(A &amp;lt; B) 为真。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&amp;gt;=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;检查左操作数的值是否大于或等于右操作数的值，如果是那么条件为真。&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;gt;=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;检查左操作数的值是否大于或等于右操作数的值，如果是那么条件为真。&lt;/td&gt;
 &lt;td&gt;(A&amp;gt;= B) 为假。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&amp;lt;=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;检查左操作数的值是否小于或等于右操作数的值，如果是那么条件为真。&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;lt;=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;检查左操作数的值是否小于或等于右操作数的值，如果是那么条件为真。&lt;/td&gt;
 &lt;td&gt;(A &amp;lt;= B) 为真。&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;h3 id=&#34;位运算&#34;&gt;&lt;a href=&#34;#位运算&#34; class=&#34;headerlink&#34; title=&#34;位运算&#34;&gt;&lt;/a&gt;位运算&lt;/h3&gt;&lt;p&gt;Java定义了位运算符，应用于整数类型(int)，长整型(long)，短整型(short)，字符型(char)，和字节型(byte)等类型。&lt;/p&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;位运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#位运算&#34;&gt;#&lt;/a&gt; 位运算&lt;/h3&gt;
+&lt;p&gt;Java 定义了位运算符，应用于整数类型 (int)，长整型 (long)，短整型 (short)，字符型 (char)，和字节型 (byte) 等类型。&lt;/p&gt;
 &lt;p&gt;位运算符作用在所有的二进制位上，并且按位运算。&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;操作符&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;描述&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;例子(A=60,B=13)&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;操作符&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;例子 (A=60,B=13)&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;＆&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;如果相对应位都是1，则结果为1，否则为0&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;(A ＆ B)得到12(0000 1100)&lt;/td&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;＆&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;如果相对应位都是 1，则结果为 1，否则为 0&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;(A ＆ B) 得到 12 (0000 1100)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;|&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;如果相对应位都是 0，则结果为 0，否则为 1&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;(A | B)得到61(0011 1101)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;|&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;如果相对应位都是 0，则结果为 0，否则为 1&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;(A | B) 得到 61 (0011 1101)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;^&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;如果相对应位值相同，则结果为0，否则为1&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;(A ^ B)得到49(0011 0001)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;^&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;如果相对应位值相同，则结果为 0，否则为 1&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;(A ^ B) 得到 49 (0011 0001)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;〜&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;按位取反运算符翻转操作数的每一位，即0变成1，1变成0。&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;(〜A)得到-61(1100 0011)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;〜&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;按位取反运算符翻转操作数的每一位，即 0 变成 1，1 变成 0。&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;(〜A) 得到 - 61 (1100 0011)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&amp;lt;&amp;lt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;按位左移运算符。左操作数按位左移右操作数指定的位数。&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;A &amp;lt;&amp;lt; 2得到240(1111 0000)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;lt;&amp;lt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;按位左移运算符。左操作数按位左移右操作数指定的位数。&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;A &amp;lt;&amp;lt;2 得到 240 (1111 0000)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&amp;gt;&amp;gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;按位右移运算符。左操作数按位右移右操作数指定的位数。&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;A &amp;gt;&amp;gt; 2得到15(1111)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;gt;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;按位右移运算符。左操作数按位右移右操作数指定的位数。&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;A &amp;gt;&amp;gt; 2 得到 15 (1111)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;按位右移补零操作符。左操作数的值按右操作数指定的位数右移，移动得到的空位以零填充。&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;A &amp;gt;&amp;gt;&amp;gt; 2得到15(0000 1111)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;按位右移补零操作符。左操作数的值按右操作数指定的位数右移，移动得到的空位以零填充。&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;A &amp;gt;&amp;gt;&amp;gt; 2 得到 15 (0000 1111)&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;h3 id=&#34;逻辑运算&#34;&gt;&lt;a href=&#34;#逻辑运算&#34; class=&#34;headerlink&#34; title=&#34;逻辑运算&#34;&gt;&lt;/a&gt;逻辑运算&lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;操作符&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;描述&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;例子(A为真，B为假)&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&amp;amp;&amp;amp;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;逻辑与运算符。当且仅当两个操作数都为真，条件才为真。&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;(A &amp;amp;&amp;amp; B)为假。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;||&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;逻辑或操作符。如果任何两个操作数任何一个为真，条件为真。&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;(A || B)为真。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;!&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;逻辑非运算符。用来反转操作数的逻辑状态。如果条件为true，则逻辑非运算符将得到false。&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;!(A &amp;amp;&amp;amp; B)为真。&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;h3 id=&#34;赋值运算&#34;&gt;&lt;a href=&#34;#赋值运算&#34; class=&#34;headerlink&#34; title=&#34;赋值运算&#34;&gt;&lt;/a&gt;赋值运算&lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;操作符&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;描述&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;简单的赋值运算符，将右操作数的值赋给左侧操作数&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;+=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;加和赋值操作符，它把左操作数和右操作数相加赋值给左操作数&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;-=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;减和赋值操作符，它把左操作数和右操作数相减赋值给左操作数&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;*=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;乘和赋值操作符，它把左操作数和右操作数相乘赋值给左操作数&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;/=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;除和赋值操作符，它把左操作数和右操作数相除赋值给左操作数&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;％=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;取模和赋值操作符，它把左操作数和右操作数取模后赋值给左操作数&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&amp;lt;&amp;lt;=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;左移位赋值运算符&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&amp;gt;&amp;gt;=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;右移位赋值运算符&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&amp;amp;=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;按位与赋值运算符&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;^=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;按位异或赋值操作符&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;|=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;按位或赋值操作符&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;code&gt;a 运算符= b&lt;/code&gt;的形式等价于&lt;code&gt;a = a y运算符 b&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;条件运算&#34;&gt;&lt;a href=&#34;#条件运算&#34; class=&#34;headerlink&#34; title=&#34;条件运算&#34;&gt;&lt;/a&gt;条件运算&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;也称三元运算符&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;x = (关系表达式) ? (为真时的结果) : (为假时的结果)
-
-/***小例子***/
-int s = 2 &amp;gt; 3 ? 5 : 6;  // s的结果为6
-/***********/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;运算符优先级&#34;&gt;&lt;a href=&#34;#运算符优先级&#34; class=&#34;headerlink&#34; title=&#34;运算符优先级&#34;&gt;&lt;/a&gt;运算符优先级&lt;/h3&gt;&lt;p&gt;如下表，从上往下优先级逐渐降低&lt;/p&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;逻辑运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#逻辑运算&#34;&gt;#&lt;/a&gt; 逻辑运算&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;类别&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;操作符&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;关联性&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;操作符&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;例子 (A 为真，B 为假)&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;后缀&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;()  []  .  (点操作符)&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;左到右&lt;/td&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;amp;&amp;amp;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;逻辑与运算符。当且仅当两个操作数都为真，条件才为真。&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;(A &amp;amp;&amp;amp; B) 为假。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;一元&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;expr++  expr–&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;从左到右&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;||&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;逻辑或操作符。如果任何两个操作数任何一个为真，条件为真。&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;(A || B) 为真。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;一元&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;++expr  –expr  +  -  ～  ！&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;从右到左&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;!&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;逻辑非运算符。用来反转操作数的逻辑状态。如果条件为 true，则逻辑非运算符将得到 false。&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;!(A &amp;amp;&amp;amp; B) 为真。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;赋值运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#赋值运算&#34;&gt;#&lt;/a&gt; 赋值运算&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;操作符&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;简单的赋值运算符，将右操作数的值赋给左侧操作数&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;乘性&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;*  /  ％&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;左到右&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;+=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;加和赋值操作符，它把左操作数和右操作数相加赋值给左操作数&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;加性&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;+  -&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;左到右&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;减和赋值操作符，它把左操作数和右操作数相减赋值给左操作数&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;移位&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&amp;gt;&amp;gt;  &amp;gt;&amp;gt;&amp;gt;  &amp;lt;&amp;lt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;左到右&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;*=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;乘和赋值操作符，它把左操作数和右操作数相乘赋值给左操作数&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;关系&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&amp;gt;  &amp;gt;=  &amp;lt;  &amp;lt;=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;左到右&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;/=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;除和赋值操作符，它把左操作数和右操作数相除赋值给左操作数&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;相等&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;==  !=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;左到右&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;％=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;取模和赋值操作符，它把左操作数和右操作数取模后赋值给左操作数&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;按位与&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;＆&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;左到右&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;lt;&amp;lt;=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;左移位赋值运算符&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;按位异或&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;^&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;左到右&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;gt;&amp;gt;=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;右移位赋值运算符&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;按位或&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;|&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;左到右&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;amp;=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;按位与赋值运算符&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;逻辑与&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&amp;amp;&amp;amp;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;左到右&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;^=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;按位异或赋值操作符&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;逻辑或&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;||&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;左到右&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;|=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;按位或赋值操作符&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt; &lt;code&gt;a 运算符= b&lt;/code&gt;  的形式等价于 &lt;code&gt;a = a y运算符 b&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;条件运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#条件运算&#34;&gt;#&lt;/a&gt; 条件运算&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;也称三元运算符&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;x &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;关系表达式&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;为真时的结果&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;为假时的结果&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/*** 小例子 ***/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; s &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;//s 的结果为 6&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/***********/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;运算符优先级&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#运算符优先级&#34;&gt;#&lt;/a&gt; 运算符优先级&lt;/h3&gt;
+&lt;p&gt;如下表，从上往下优先级逐渐降低&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;类别&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;操作符&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;关联性&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;后缀&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;()  []  .  (点操作符)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;左到右&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;条件&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;?  :&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;从右到左&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;一元&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;expr++  expr--&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;从左到右&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;赋值&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;=  +=  -=  *=  /=  ％=  &amp;gt;&amp;gt;=  &amp;lt;&amp;lt;=  ＆=  ^=  |=&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;从右到左&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;一元&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;++expr  --expr  +  -  ～  ！&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;从右到左&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;逗号&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;,&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;左到右&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;乘性&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;*  /  ％&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;左到右&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;h2 id=&#34;第一个Java程序&#34;&gt;&lt;a href=&#34;#第一个Java程序&#34; class=&#34;headerlink&#34; title=&#34;第一个Java程序&#34;&gt;&lt;/a&gt;第一个Java程序&lt;/h2&gt;&lt;pre&gt;&lt;code class=&#34;java&#34;&gt;public class Main &amp;#123;
-    public static void main(String[] args) &amp;#123;
-        
-        System.out.println(&amp;quot;Hello World!&amp;quot;);
-        
-    &amp;#125;
-&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
- ]]></description>
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;加性&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;+  -&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;左到右&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;移位&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;gt;&amp;gt;  &amp;gt;&amp;gt;&amp;gt;  &amp;lt;&amp;lt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;左到右&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;关系&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;gt;  &amp;gt;=  &amp;lt;  &amp;lt;=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;左到右&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;相等&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;==  !=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;左到右&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;按位与&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;＆&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;左到右&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;按位异或&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;^&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;左到右&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;按位或&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;|&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;左到右&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;逻辑与&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;amp;&amp;amp;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;左到右&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;逻辑或&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;||&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;左到右&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;条件&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;?  :&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;从右到左&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;赋值&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;=  +=  -=  *=  /=  ％=  &amp;gt;&amp;gt;=  &amp;lt;&amp;lt;=  ＆=  ^=  |=&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;从右到左&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;逗号&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;,&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;左到右&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;第一个java程序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一个java程序&#34;&gt;#&lt;/a&gt; 第一个 Java 程序&lt;/h2&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Main&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; args&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Hello World!&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://flame-0o.github.io/cpp/Dijkstra%E7%AE%97%E6%B3%95/</guid>
@@ -569,90 +540,31 @@ int s = 2 &amp;gt; 3 ? 5 : 6;  // s的结果为6
             <category term="算法" scheme="https://flame-0o.github.io/tags/%E7%AE%97%E6%B3%95/" />
             <category term="图论算法" scheme="https://flame-0o.github.io/tags/%E5%9B%BE%E8%AE%BA%E7%AE%97%E6%B3%95/" />
             <pubDate>Fri, 06 Aug 2021 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;Dijkstra算法&#34;&gt;&lt;a href=&#34;#Dijkstra算法&#34; class=&#34;headerlink&#34; title=&#34;Dijkstra算法&#34;&gt;&lt;/a&gt;Dijkstra算法&lt;/h1&gt;&lt;h3 id=&#34;简介&#34;&gt;&lt;a href=&#34;#简介&#34; class=&#34;headerlink&#34; title=&#34;简介&#34;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;p&gt;迪杰斯特拉算法(Dijkstra)是由荷兰计算机&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQTclOTElRTUlQUQlQTYlRTUlQUUlQjYvMTIxMDExNA==&#34;&gt;科学家&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclOEIlODQlRTUlODUlOEIlRTYlOTYlQUYlRTclODklQjklRTYlOEIlODkvMjgyODg3Mg==&#34;&gt;狄克斯特拉&lt;/span&gt;于1959年提出的，因此又叫狄克斯特拉算法。是从一个顶点到其余各顶点的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTYlOUMlODAlRTclOUYlQUQlRTglQjclQUYlRTUlQkUlODQvNjMzNDkyMA==&#34;&gt;最短路径&lt;/span&gt;算法，解决的是有权图中最短路径问题。迪杰斯特拉算法主要特点是从起始点开始，采用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTglQjQlQUElRTUlQkYlODMlRTclQUUlOTclRTYlQjMlOTUvNTQxMTgwMA==&#34;&gt;贪心算法&lt;/span&gt;的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQUQlOTYlRTclOTUlQTUvNDAwNg==&#34;&gt;策略&lt;/span&gt;，每次遍历到始点距离最近且未访问过的顶点的邻接节点，直到扩展到终点为止。&lt;/p&gt;
-&lt;p&gt;Dijkstra 算法可用来求一个图中一个点到其他所有点的最短路径，时间复杂度为 O(n2)，可优化为O(nlogn)。&lt;/p&gt;
-&lt;h3 id=&#34;案例&#34;&gt;&lt;a href=&#34;#案例&#34; class=&#34;headerlink&#34; title=&#34;案例&#34;&gt;&lt;/a&gt;案例&lt;/h3&gt;&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/skmcj-066/pic-bed/raw/master/img/20210808225823.png&#34; alt=&#34;案例&#34;&gt;{.gallery data-height=”120”}&lt;/p&gt;
-&lt;p&gt;如图，求源点V1到其它几个点的最短距离。&lt;/p&gt;
-&lt;h3 id=&#34;要点&#34;&gt;&lt;a href=&#34;#要点&#34; class=&#34;headerlink&#34; title=&#34;要点&#34;&gt;&lt;/a&gt;要点&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;cpp&#34;&gt;int map[n+5][n+5]  //采用邻接链表的方式记录图信息
-int dis[n]  //用于存储源点到其它n-1个点的最短距离
-bool v[n]   //用于记录每个点的搜索状态，false表示未搜
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;从源点出发，每次找出&lt;code&gt;dis&lt;/code&gt;中离源点最近的且未走过的点，替换出发点，更新&lt;code&gt;dis&lt;/code&gt;的值。&lt;/p&gt;
-&lt;h3 id=&#34;算法详解&#34;&gt;&lt;a href=&#34;#算法详解&#34; class=&#34;headerlink&#34; title=&#34;算法详解&#34;&gt;&lt;/a&gt;算法详解&lt;/h3&gt;&lt;p&gt;首先用邻接矩阵存储图信息，如下：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;cpp&#34;&gt;&amp;#123; 
-    &amp;#123; 0, 8, 2, ∞, ∞, 5, ∞ &amp;#125;,
-    &amp;#123; 8, 0, ∞, 2, ∞, ∞, ∞ &amp;#125;,
-    &amp;#123; 2, ∞, 0, 3, ∞, ∞, 4 &amp;#125;,
-    &amp;#123; ∞, 2, 3, 0, 4, ∞, ∞ &amp;#125;,
-    &amp;#123; ∞, ∞, ∞, 4, 0, ∞, 2 &amp;#125;,
-    &amp;#123; 5, ∞, ∞, ∞, ∞, 0, 2 &amp;#125;,
-    &amp;#123; ∞, ∞, 4, ∞, 2, 2, 0 &amp;#125;
- &amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;接着初始化&lt;code&gt;dis&lt;/code&gt;数组，此时&lt;code&gt;dis[0, 8, 2, ∞, ∞, 5, ∞]&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;一开始&lt;code&gt;start = 1&lt;/code&gt;，令&lt;code&gt;v[1] = 1&lt;/code&gt;表示V1点已搜；接着遍历&lt;code&gt;dis&lt;/code&gt;数组，找出当前距离源点最近且未搜的点，这里为V3(距离为2)，令&lt;code&gt;start = 3&lt;/code&gt;，&lt;code&gt;v[3] = 1&lt;/code&gt;；然后更新&lt;code&gt;dis&lt;/code&gt;数组(当&lt;code&gt;dis[start] + map[start][i] &amp;lt; dis[i]&lt;/code&gt;时，更新&lt;code&gt;dis[i]&lt;/code&gt;的值)，为&lt;code&gt;dis[0, 8, 2, 5, ∞, 5, 6]&lt;/code&gt;。&lt;/p&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;dijkstra算法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#dijkstra算法&#34;&gt;#&lt;/a&gt; Dijkstra 算法&lt;/h1&gt;
+&lt;h3 id=&#34;简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#简介&#34;&gt;#&lt;/a&gt; 简介&lt;/h3&gt;
+&lt;p&gt;迪杰斯特拉算法 (Dijkstra) 是由荷兰计算机&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQTclOTElRTUlQUQlQTYlRTUlQUUlQjYvMTIxMDExNA==&#34;&gt;科学家&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclOEIlODQlRTUlODUlOEIlRTYlOTYlQUYlRTclODklQjklRTYlOEIlODkvMjgyODg3Mg==&#34;&gt;狄克斯特拉&lt;/span&gt;于 1959 年提出的，因此又叫狄克斯特拉算法。是从一个顶点到其余各顶点的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTYlOUMlODAlRTclOUYlQUQlRTglQjclQUYlRTUlQkUlODQvNjMzNDkyMA==&#34;&gt;最短路径&lt;/span&gt;算法，解决的是有权图中最短路径问题。迪杰斯特拉算法主要特点是从起始点开始，采用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTglQjQlQUElRTUlQkYlODMlRTclQUUlOTclRTYlQjMlOTUvNTQxMTgwMA==&#34;&gt;贪心算法&lt;/span&gt;的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQUQlOTYlRTclOTUlQTUvNDAwNg==&#34;&gt;策略&lt;/span&gt;，每次遍历到始点距离最近且未访问过的顶点的邻接节点，直到扩展到终点为止。&lt;/p&gt;
+&lt;p&gt;Dijkstra 算法可用来求一个图中一个点到其他所有点的最短路径，时间复杂度为 O (n2)，可优化为 O (nlogn)。&lt;/p&gt;
+&lt;h3 id=&#34;案例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#案例&#34;&gt;#&lt;/a&gt; 案例&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/skmcj-066/pic-bed/raw/master/img/20210808225823.png&#34; alt=&#34;案例&#34; class=&#34;gallery&#34; data-height=&#34;120&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;如图，求源点 V1 到其它几个点的最短距离。&lt;/p&gt;
+&lt;h3 id=&#34;要点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#要点&#34;&gt;#&lt;/a&gt; 要点&lt;/h3&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; map&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;n&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;n&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 采用邻接链表的方式记录图信息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; dis&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;n&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 用于存储源点到其它 n-1 个点的最短距离&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;bool&lt;/span&gt; v&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;n&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;   &lt;span class=&#34;token comment&#34;&gt;// 用于记录每个点的搜索状态，false 表示未搜&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;从源点出发，每次找出 &lt;code&gt;dis&lt;/code&gt;  中离源点最近的且未走过的点，替换出发点，更新 &lt;code&gt;dis&lt;/code&gt;  的值。&lt;/p&gt;
+&lt;h3 id=&#34;算法详解&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#算法详解&#34;&gt;#&lt;/a&gt; 算法详解&lt;/h3&gt;
+&lt;p&gt;首先用邻接矩阵存储图信息，如下：&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞ &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞ &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞ &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; ∞&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;接着初始化 &lt;code&gt;dis&lt;/code&gt;  数组，此时 &lt;code&gt;dis[0, 8, 2, ∞, ∞, 5, ∞]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;一开始 &lt;code&gt;start = 1&lt;/code&gt; ，令 &lt;code&gt;v[1] = 1&lt;/code&gt;  表示 V1 点已搜；接着遍历 &lt;code&gt;dis&lt;/code&gt;  数组，找出当前距离源点最近且未搜的点，这里为 V3 (距离为 2)，令 &lt;code&gt;start = 3&lt;/code&gt; ， &lt;code&gt;v[3] = 1&lt;/code&gt; ；然后更新 &lt;code&gt;dis&lt;/code&gt;  数组 (当 &lt;code&gt;dis[start] + map[start][i] &amp;lt; dis[i]&lt;/code&gt;  时，更新 &lt;code&gt;dis[i]&lt;/code&gt;  的值)，为 &lt;code&gt;dis[0, 8, 2, 5, ∞, 5, 6]&lt;/code&gt; 。&lt;/p&gt;
 &lt;p&gt;重复上述步骤，依次如下：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;start = 4&lt;/code&gt;，更新为&lt;code&gt;dis[0, 7, 2, 5, 9, 5, 6]&lt;/code&gt;&lt;br&gt;&lt;code&gt;start = 6&lt;/code&gt;，更新为&lt;code&gt;dis[0, 7, 2, 5, 9, 5, 6]&lt;/code&gt;&lt;br&gt;&lt;code&gt;start = 7&lt;/code&gt;，更新为&lt;code&gt;dis[0, 7, 2, 5, 8, 5, 6]&lt;/code&gt;&lt;br&gt;&lt;code&gt;start = 2&lt;/code&gt;，更新为&lt;code&gt;dis[0, 7, 2, 5, 8, 5, 6]&lt;/code&gt;&lt;br&gt;&lt;code&gt;start = 5&lt;/code&gt;，更新为&lt;code&gt;dis[0, 7, 2, 5, 8, 5, 6]&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;直到所有点都搜索过，此时&lt;code&gt;dis&lt;/code&gt;数组即为源点V1到各个点的最短距离。&lt;/p&gt;
-&lt;h3 id=&#34;完整代码&#34;&gt;&lt;a href=&#34;#完整代码&#34; class=&#34;headerlink&#34; title=&#34;完整代码&#34;&gt;&lt;/a&gt;完整代码&lt;/h3&gt;&lt;pre&gt;&lt;code class=&#34;cpp&#34;&gt;#include &amp;lt;iostream&amp;gt;
-#include &amp;lt;cstring&amp;gt;
-using namespace std;
-
-//n表示点的个数，m表示边的个数，s表示源点编号，这题为1，mins用于找出最小值
-int n, m, s, mins;
-int mp[10001][10001], dis[10001];
-bool v[10001];
-
-int main()
-&amp;#123;
-    cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; m &amp;gt;&amp;gt; s;
-    int a, b, c;
-    memset(mp, 127, sizeof(mp));
-    for(int i = 0; i &amp;lt; m; i ++)&amp;#123;
-        cin &amp;gt;&amp;gt; a &amp;gt;&amp;gt; b &amp;gt;&amp;gt; c;       //表示a到b有一条权值为c的边
-        mp[a][b] = mp[b][a] = c;  //无向边
-    &amp;#125;
-    int t;  //记录当前未搜最近点
-    for(int i = 1; i &amp;lt;= n; i ++) dis[i] = mp[s][i];  //初始化dis
-    v[s] = 1;    //记录初始点已走
-    dis[s] = 0;  //初始化，源点到源点自然是0
-    for(int k = 1; k &amp;lt;= n; k ++)&amp;#123;
-        mins = 0x7fffffff;                //令mins为极大值
-        for(int i = 1; i &amp;lt;= n; i ++)&amp;#123;     //遍历找出当前距离源点最近且未搜的点
-            if(!v[i] &amp;amp;&amp;amp; dis[i] &amp;lt; mins)&amp;#123;
-                mins = dis[i];
-                t = i;                    //用t记下来
-            &amp;#125;
-        &amp;#125;
-        v[t] = 1;                         //记录t点搜索状态
-        for(int i = 1; i &amp;lt;= n; i ++)&amp;#123;     //更新dis
-            if(mp[t][i] &amp;amp;&amp;amp; !v[i] &amp;amp;&amp;amp; dis[t]+mp[t][i] &amp;lt; dis[i])
-                dis[i] = dis[t] + mp[t][i];
-        &amp;#125;
-    &amp;#125;
-    //输出最终结果
-    for(int i = 1; i &amp;lt;= n; i ++) cout &amp;lt;&amp;lt; dis[i] &amp;lt;&amp;lt; &amp;quot; &amp;quot;;
-
-
-    return 0;
-&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;案例测试&#34;&gt;&lt;a href=&#34;#案例测试&#34; class=&#34;headerlink&#34; title=&#34;案例测试&#34;&gt;&lt;/a&gt;案例测试&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;输入数据&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;cpp&#34;&gt;7 9 1
-1 2 8
-1 3 2
-1 6 5
-2 4 2
-3 4 3
-3 7 4
-6 7 2
-4 5 4
-5 7 2
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;输出结果&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;cpp&#34;&gt;0 7 2 5 8 5 6
-&lt;/code&gt;&lt;/pre&gt;
- ]]></description>
+&lt;p&gt;&lt;code&gt;start = 4&lt;/code&gt; ，更新为 &lt;code&gt;dis[0, 7, 2, 5, 9, 5, 6]&lt;/code&gt; &lt;br /&gt;
+ &lt;code&gt;start = 6&lt;/code&gt; ，更新为 &lt;code&gt;dis[0, 7, 2, 5, 9, 5, 6]&lt;/code&gt; &lt;br /&gt;
+ &lt;code&gt;start = 7&lt;/code&gt; ，更新为 &lt;code&gt;dis[0, 7, 2, 5, 8, 5, 6]&lt;/code&gt; &lt;br /&gt;
+ &lt;code&gt;start = 2&lt;/code&gt; ，更新为 &lt;code&gt;dis[0, 7, 2, 5, 8, 5, 6]&lt;/code&gt; &lt;br /&gt;
+ &lt;code&gt;start = 5&lt;/code&gt; ，更新为 &lt;code&gt;dis[0, 7, 2, 5, 8, 5, 6]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;直到所有点都搜索过，此时 &lt;code&gt;dis&lt;/code&gt;  数组即为源点 V1 到各个点的最短距离。&lt;/p&gt;
+&lt;h3 id=&#34;完整代码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#完整代码&#34;&gt;#&lt;/a&gt; 完整代码&lt;/h3&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;cstring&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;//n 表示点的个数，m 表示边的个数，s 表示源点编号，这题为 1，mins 用于找出最小值&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; m&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; s&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; mins&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; mp&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;10001&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;10001&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; dis&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;10001&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;bool&lt;/span&gt; v&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;10001&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    cin &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; n &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; m &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; s&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; b&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; c&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token function&#34;&gt;memset&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;mp&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;127&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;sizeof&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;mp&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; m&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        cin &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; a &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; b &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; c&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;       &lt;span class=&#34;token comment&#34;&gt;// 表示 a 到 b 有一条权值为 c 的边&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        mp&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; mp&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;b&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;a&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; c&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 无向边&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; t&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 记录当前未搜最近点&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;=&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; dis&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; mp&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;s&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 初始化 dis&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    v&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;s&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;    &lt;span class=&#34;token comment&#34;&gt;// 记录初始点已走&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    dis&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;s&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 初始化，源点到源点自然是 0&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; k &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; k &lt;span class=&#34;token operator&#34;&gt;&amp;lt;=&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; k &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        mins &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0x7fffffff&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;                &lt;span class=&#34;token comment&#34;&gt;// 令 mins 为极大值&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;=&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;     &lt;span class=&#34;token comment&#34;&gt;// 遍历找出当前距离源点最近且未搜的点&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;v&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; dis&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; mins&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                mins &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; dis&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                t &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;                    &lt;span class=&#34;token comment&#34;&gt;// 用 t 记下来&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        v&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;t&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;                         &lt;span class=&#34;token comment&#34;&gt;// 记录 t 点搜索状态&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;=&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;     &lt;span class=&#34;token comment&#34;&gt;// 更新 dis&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;mp&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;t&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;v&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; dis&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;t&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;mp&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;t&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; dis&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                dis&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; dis&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;t&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; mp&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;t&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 输出最终结果&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;=&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; dis&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34; &#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;案例测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#案例测试&#34;&gt;#&lt;/a&gt; 案例测试&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;输入数据&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;7&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;9&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;8&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;6&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;7&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;6&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;7&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;7&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;输出结果&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;7&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;8&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;6&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
     </channel>
 </rss>
