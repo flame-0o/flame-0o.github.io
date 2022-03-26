@@ -10,14 +10,339 @@
         </author>
         <description>不戚戚于贫贱，不汲汲于富贵</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 13 Sep 2021 00:00:00 +0800</pubDate>
-        <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0800</lastBuildDate>
+        <pubDate>Sat, 26 Mar 2022 00:00:00 +0800</pubDate>
+        <lastBuildDate>Sat, 26 Mar 2022 00:00:00 +0800</lastBuildDate>
         <category term="web" />
         <category term="前端" />
         <category term="C" />
         <category term="C++" />
         <category term="python" />
         <category term="算法" />
+        <item>
+            <guid isPermalink="true">https://skmcj.top/varia/Git%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B</guid>
+            <title>Git的基础使用教程</title>
+            <link>https://skmcj.top/varia/Git%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B</link>
+            <category term="知识杂粹" scheme="https://skmcj.top/categories/varia/" />
+            <category term="基础" scheme="https://skmcj.top/tags/%E5%9F%BA%E7%A1%80/" />
+            <category term="git" scheme="https://skmcj.top/tags/git/" />
+            <pubDate>Sat, 26 Mar 2022 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;git的基础使用教程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git的基础使用教程&#34;&gt;#&lt;/a&gt; Git 的基础使用教程&lt;/h1&gt;
+&lt;h2 id=&#34;简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#简介&#34;&gt;#&lt;/a&gt; 简介&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Git&lt;/code&gt;  是一个开源的分布式版本控制系统，用于方便地管理你的项目源码版本。&lt;/p&gt;
+&lt;p&gt;如果依旧不理解 &lt;code&gt;Git&lt;/code&gt;  是个什么东西，只需要记住它是个工具，并学会简单的运用就行了，用多了自然就懂了。&lt;/p&gt;
+&lt;h2 id=&#34;安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装&#34;&gt;#&lt;/a&gt; 安装&lt;/h2&gt;
+&lt;p&gt;本教程以 &lt;code&gt;windows10-x64&lt;/code&gt;  的安装为例。&lt;/p&gt;
+&lt;h3 id=&#34;下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下载&#34;&gt;#&lt;/a&gt; 下载&lt;/h3&gt;
+&lt;p&gt;下载一个东西，首先就是找它的官网，官网不行再寻求其它路径。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Git&lt;/code&gt;  的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXQtc2NtLmNvbS8=&#34;&gt;官网&lt;/span&gt;在国内是可以正常访问的，访问官网，然后点击图中红框，跳转到版本选择页。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/skmcj/pic-bed@main/img/20220322211504.png&#34; alt=&#34;git官网首页&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;接着，根据自己的系统版本选择相应的版本。这里选择如下：&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3NrbWNqL3BpYy1iZWRAbWFpbi9pbWcvMjAyMjAzMjIyMTE2NDkucG5n&#34;&gt;https://cdn.jsdelivr.net/gh/skmcj/pic-bed@main/img/20220322211649.png&lt;/span&gt;&amp;quot;alt=&amp;quot; 下载页 &amp;quot;style=&amp;quot;zoom: 67%;&amp;quot; /&amp;gt;&lt;/p&gt;
+&lt;h3 id=&#34;开始安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开始安装&#34;&gt;#&lt;/a&gt; 开始安装&lt;/h3&gt;
+&lt;p&gt;网上安装 &lt;code&gt;Git&lt;/code&gt;  的教程很多，可自行搜索或参考以下教程。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC80NDM1Mjc1NDk=&#34;&gt;Git 下载安装教程：git 安装步骤手把手图文【超详细】 - 知乎 (zhihu.com)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC80NzM1OTM2NDA=&#34;&gt;2022 最新超详细 Git 安装教程 - 知乎 (zhihu.com)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;安装完成后，在右键菜单会出现 &lt;code&gt;Git Bash Here&lt;/code&gt;  的选项，点击会弹出一个终端控制台，位置为你当前右键位置，在里面即可进行你的 &lt;code&gt;Git&lt;/code&gt;  操作。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Git Bash&lt;/code&gt;  实质上就是一个 &lt;code&gt;Linux&lt;/code&gt;  风格的终端程序，类似 &lt;code&gt;windows&lt;/code&gt;  的 &lt;code&gt;cmd&lt;/code&gt;  窗口，只不过在里面使用的是 &lt;code&gt;Linux&lt;/code&gt;  的操作指令。&lt;/p&gt;
+&lt;h2 id=&#34;基础使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基础使用&#34;&gt;#&lt;/a&gt; 基础使用&lt;/h2&gt;
+&lt;h3 id=&#34;linux常见操作命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux常见操作命令&#34;&gt;#&lt;/a&gt; Linux 常见操作命令&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;查看目录
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ls&lt;/code&gt;  — 查看当前目录下的所有目录和文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls -a&lt;/code&gt;  — 查看当前目录下的所有目录和文件 (包括隐藏的文件)
+&lt;ul&gt;
+&lt;li&gt;其中 &lt;code&gt;.&lt;/code&gt;  代表当前目录的意思， &lt;code&gt;..&lt;/code&gt;  代表上一级目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls -l&lt;/code&gt;  — 以列表形式，查看当前目录下的所有目录和文件 (可展示文件的详细信息)
+&lt;ul&gt;
+&lt;li&gt;使用 &lt;code&gt;ll&lt;/code&gt;  命令可达到相同效果&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls 目录名&lt;/code&gt;  — 查看指定目录的文件信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;切换目录
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cd xx&lt;/code&gt;  — 进入当前目录下名为 &lt;code&gt;xx&lt;/code&gt;  的目录&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd ..&lt;/code&gt;  — 切换到上一级目录&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd -&lt;/code&gt;  — 切换到上一次操作目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;创建目录
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;mkdir xx&lt;/code&gt;  — 在当前目录下创建名为 &lt;code&gt;xx&lt;/code&gt;  的文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mkdir 完整路径&lt;/code&gt;  — 在指定位置创建目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;删除文件
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;rm 文件名&lt;/code&gt;  — 删除当前目录下的文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;修改名称
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;mv 文件名 新文件名&lt;/code&gt;  — 修改当前目录下的文件为新文件名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;新增文件
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;touch 文件名&lt;/code&gt;  — 在当前目录下创建新文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;git常见操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git常见操作&#34;&gt;#&lt;/a&gt; Git 常见操作&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git config --global user.name &amp;quot;你的名字&amp;quot;&lt;/code&gt;  — 设置 &lt;code&gt;Git&lt;/code&gt;  使用的全局名&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git config --global user.email &amp;quot;你的邮箱&amp;quot;&lt;/code&gt;  — 设置 &lt;code&gt;Git&lt;/code&gt;  使用的全局邮箱&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git init&lt;/code&gt;  — 在当前文件夹下，初始化一个 &lt;code&gt;Git&lt;/code&gt;  仓库，理解不了仓库可以想象为一个 &lt;code&gt;Git&lt;/code&gt;  的项目&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;初始化完成后，文件夹下会出现一个 &lt;code&gt;.git&lt;/code&gt;  目录，看不到的话可能是被隐藏了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git clone &amp;lt;远程仓库地址&amp;gt;&lt;/code&gt;  — 将远程仓库克隆到本地&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git add xx.xx&lt;/code&gt;  — 提交名为 &lt;code&gt;xx.xx&lt;/code&gt;  的文件&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git add .&lt;/code&gt;  — 提交新文件和被修改的文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;add&lt;/code&gt;  提交的文件是提交到&lt;strong&gt;要提交到本地仓库前&lt;/strong&gt;的一个&lt;strong&gt;暂存地&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git commit -m &amp;quot;一些说明信息&amp;quot;&lt;/code&gt;  — 将 &lt;code&gt;git add&lt;/code&gt;  的文件提交到本地仓库里&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git remote add origin 远程仓库地址&lt;/code&gt;  — 将本地仓库与远程仓库进行关联&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;其中， &lt;code&gt;origin&lt;/code&gt;  为远程仓库的别名，可以自定义，一般建议使用 &lt;code&gt;origin&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git remote -v&lt;/code&gt;  — 用于查看仓库关联情况&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git status&lt;/code&gt;  — 查看当前仓库文件状态&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git branch &amp;lt;分支名&amp;gt;&lt;/code&gt;  — 创建一支新分支&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git branch&lt;/code&gt;  — 查看当前所有分支及所在分支&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git branch -d &amp;lt;分支名&amp;gt;&lt;/code&gt;  — 删除本地仓库的指定分支&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git checkout &amp;lt;分支名&amp;gt;&lt;/code&gt;  — 切换当前工作目录到指定分支&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git checkout -b &amp;lt;分支名&amp;gt;&lt;/code&gt;  — 创建并切换到指定分支&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git push &amp;lt;分支&amp;gt;&lt;/code&gt;  — 将本地仓库 &lt;code&gt;push&lt;/code&gt;  到远程仓库指定分支&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;第一次 &lt;code&gt;push&lt;/code&gt;  建议使用 &lt;code&gt;git push -u 仓库代称 master&lt;/code&gt; ，仓库代称为远程仓库的代称，如上面的 &lt;code&gt;origin&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git pull&lt;/code&gt;  — (全默认写法) 将远程仓库更新到本地仓库&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git pull &amp;lt;远程仓库&amp;gt; &amp;lt;远程仓库分支名&amp;gt;:&amp;lt;本地仓库分支名&amp;gt;&lt;/code&gt;  — (完整的写法) 将远程仓库指定分支合并到本地仓库指定分支&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git merge &amp;lt;分支名&amp;gt;&lt;/code&gt;  — 将指定分支合并到当前分支&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;git log&lt;/code&gt;  — 查看当前仓库的版本信息 (日志)，当信息太多时，不能一次显示完整，会在末行有 &lt;code&gt;:&lt;/code&gt;  的样式提示，可按方向键看下一行，按 &lt;code&gt;q&lt;/code&gt;  即可退出日志状态&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;多人项目开发&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多人项目开发&#34;&gt;#&lt;/a&gt; 多人项目开发&lt;/h2&gt;
+&lt;p&gt;在进行多人写作开发的时候，为了满足不同时空的要求，需要一个远程代码托管平台协助开发。&lt;/p&gt;
+&lt;p&gt;这类平台有很多，但常用的就几个，如 &lt;code&gt;Gitee&lt;/code&gt; 、 &lt;code&gt;GitHub&lt;/code&gt; 、 &lt;code&gt;GitLab&lt;/code&gt; 。如果没有特殊方法的话，在国内建议使用 &lt;code&gt;Gitee&lt;/code&gt; ，访问速度较快。&lt;/p&gt;
+&lt;h3 id=&#34;使用gitee&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用gitee&#34;&gt;#&lt;/a&gt; 使用 Gitee&lt;/h3&gt;
+&lt;p&gt;要想使用 &lt;code&gt;Gitee&lt;/code&gt; ，首先你要有一个 &lt;code&gt;Gitee&lt;/code&gt;  账号，只要去&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRlZS5jb20v&#34;&gt; Gitee 官网&lt;/span&gt;注册即可。&lt;/p&gt;
+&lt;p&gt;注册账号后，就可以在里面注册自己的仓库 (传说中的远程仓库)，将其与本地仓库关联，就可以将本地仓库托管到云端了。&lt;/p&gt;
+&lt;p&gt;同时，也可以克隆别人的仓库到本地，实现多人开发。&lt;/p&gt;
+&lt;p&gt;克隆仓库，主要有两种方式，分别为 &lt;code&gt;HTTPS&lt;/code&gt;  和 &lt;code&gt;SSH&lt;/code&gt; ，前者要输密码，后者不用，但需要配置。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/skmcj/pic-bed@main/img/20220324140050.png&#34; alt=&#34;克隆&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;配置 SSH&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在任意位置，右键选择 &lt;code&gt;Git Bash Here&lt;/code&gt; ，打开 &lt;code&gt;Git Bash&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;输入 &lt;code&gt;ssh-keygen -t rsa -C &amp;quot;你的邮箱&amp;quot;&lt;/code&gt; ，然后回车&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在出现的提示后输入文件名，默认为 &lt;code&gt;id_rsa&lt;/code&gt; ，建议改为与你账户有关的，如： &lt;code&gt;id_rsa_gitee&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/skmcj/pic-bed@main/img/20220324142049.png&#34; alt=&#34;配置SSH&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;接着去提示的路径下 (即用户目录下的 &lt;code&gt;.ssh&lt;/code&gt;  目录) 查看相应的文件，可以看到两个文件 (这里用默认名举例，实际看你刚才的命名)，分别为 &lt;code&gt;id_rsa&lt;/code&gt;  和 &lt;code&gt;id_rsa.pub&lt;/code&gt; ，将 &lt;code&gt;id_rsa.pub&lt;/code&gt;  的内容复制备用，用记事本即可打开&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;接着登录你的 &lt;code&gt;Gitee&lt;/code&gt;  账户，点击头像打开设置，在设置页的左侧找到 &lt;code&gt;SSH公钥&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/skmcj/pic-bed@main/img/20220324192909.png&#34; alt=&#34;SSH公钥&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;到这，其中就可以正常使用 &lt;code&gt;SSH&lt;/code&gt;  克隆项目了，但为了满足将来多账户区分的需求，例如一个 &lt;code&gt;Gitee&lt;/code&gt; ，一个 &lt;code&gt;GitHub&lt;/code&gt;  或多个 &lt;code&gt;Gitee&lt;/code&gt;  等，建议进行如下操作&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在 &lt;code&gt;.ssh&lt;/code&gt;  目录下，新建一个文件 &lt;code&gt;config&lt;/code&gt; ，不用后缀，用记事本打开，输入以下内容&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Gitee  (注释，用于区分不同账户)
+# Host 可任意更改，但建议与HostName相同，除非多个相同平台的用户，如果改了，后续SSH链接也许做出相应更改
+# HostName 平台域名
+# PreferredAuthentications　认证方式
+# IdentityFile　私钥文件路径，名称按自己的实际情况写
+
+Host gitee.com
+HostName gitee.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+
+# 如有其它账户，可往下继续配置
+# 一些说明，如果你的Host更改了，那么你用于clone的SSH链接@后的内容需要改为相应的内容
+# 如：SSH链接为 git@gitee.com:ltgcm/notes.git   而你的Host为 abc
+# 那么，你克隆就要用 git clone git@abc:ltgcm/notes.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;配置好上面的文件，保存后，可使用 &lt;code&gt;ssh -t git@&amp;lt;Host内容&amp;gt;&lt;/code&gt;  验证是否配置成功，这里为 &lt;code&gt;ssh -t git@gitee.com&lt;/code&gt; ，当出现带有 &lt;code&gt;successfully&lt;/code&gt;  字样的信息则表示配置成功&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;多人协作开发&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多人协作开发&#34;&gt;#&lt;/a&gt; 多人协作开发&lt;/h3&gt;
+&lt;p&gt;以 &lt;code&gt;甲&lt;/code&gt; 和 &lt;code&gt;乙&lt;/code&gt; 两个角色进行举例，适用于人数较少的小项目开发&lt;/p&gt;
+&lt;p&gt;开发项目假设为一个小程序，方式为原生开发&lt;/p&gt;
+&lt;p&gt;项目 &lt;code&gt;SSH&lt;/code&gt;  链接为 &lt;code&gt;git@gitee.com:ltgcm/applet.git&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;项目托管于 &lt;code&gt;Gitee&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;开发人员甲&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;介绍：项目的创立者，需要配置好项目，并创建远程仓库进行关联推送&lt;/li&gt;
+&lt;li&gt;步骤一：使用微信开发者工具创建好项目，并根据项目需求进行一些初始环境的配置
+&lt;ul&gt;
+&lt;li&gt;建议在项目根目录下再新建一个文件，名为 &lt;code&gt;README.md&lt;/code&gt;  (如果没有的话)，用于介绍这个项目&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;步骤二：登录自己的 &lt;code&gt;Gitee&lt;/code&gt; ，点击自己头像左侧的 &lt;code&gt;+&lt;/code&gt;  号，选择新建仓库
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3NrbWNqL3BpYy1iZWRAbWFpbi9pbWcvMjAyMjAzMjQyMTIyMjAucG5n&#34;&gt;https://cdn.jsdelivr.net/gh/skmcj/pic-bed@main/img/20220324212220.png&lt;/span&gt;&amp;quot;alt=&amp;quot; 新建仓库 &amp;quot;style=&amp;quot;zoom:67%;&amp;quot; /&amp;gt;&lt;/li&gt;
+&lt;li&gt;如图设置好仓库名及介绍，创建即可&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;步骤三：在本地建立好的项目目录下进行本地项目的初始化
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git init&lt;/code&gt;  — 需进入步骤一建立好的项目根目录下，使用 &lt;code&gt;Git Bash&lt;/code&gt;  输入相应命令&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;步骤四：将本地仓库与远程仓库关联
+&lt;ul&gt;
+&lt;li&gt;复制远程仓库的 &lt;code&gt;SSH&lt;/code&gt;  链接，这里为 &lt;code&gt;git@gitee.com:ltgcm/applet.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git remote add origin git@gitee.com:ltgcm/applet.git&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;步骤五：将本地仓库推送到远程仓库
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git commit -m &amp;quot;初始化项目&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push -u origin master&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;步骤六：将其他开发人员加入仓库成员
+&lt;ul&gt;
+&lt;li&gt;打开 &lt;code&gt;Gitee&lt;/code&gt; ，进入对应的仓库&lt;/li&gt;
+&lt;li&gt;点击上方右侧的管理&lt;/li&gt;
+&lt;li&gt;选择左侧仓库成员管理&lt;/li&gt;
+&lt;li&gt;选择管理员，点击右侧上方的添加仓库成员，选择邀请成员&lt;/li&gt;
+&lt;li&gt;选择任一方式邀请都可，按照提示进行邀请即可&lt;/li&gt;
+&lt;li&gt;通知其他成员接受邀请&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;步骤六点五：如果开发人员超过 5 人，需将仓库设置为公开仓库，私人仓库规定开发人员不可超过 5 人
+&lt;ul&gt;
+&lt;li&gt;依旧是在管理页面&lt;/li&gt;
+&lt;li&gt;选择左侧仓库设置下的基本信息&lt;/li&gt;
+&lt;li&gt;拉到下面，有个是否开源 [开源 | 私有]，选择开源，然后保存即可&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;步骤七：通知其他开发人员进行开发&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;开发人员乙&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;介绍：负责开发&lt;strong&gt;分类&lt;/strong&gt;页面 ( &lt;code&gt;cate&lt;/code&gt; ) 的相关功能&lt;/li&gt;
+&lt;li&gt;步骤一：先将远程仓库 &lt;code&gt;clone&lt;/code&gt;  到本地
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git clone git@gitee.com:ltgcm/notes.git&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;步骤二：创建并切换到 &lt;code&gt;cate&lt;/code&gt;  子分支
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git checkout -b cate&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;步骤三：进行分类页面的相关开发&lt;/li&gt;
+&lt;li&gt;步骤四：将 &lt;code&gt;cate&lt;/code&gt;  分支进行本地提交
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git commit -m &amp;quot;完成分类页面的开发&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;步骤五：将本地 &lt;code&gt;cate&lt;/code&gt;  分支推送到 &lt;code&gt;Gitee&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git push -u origin cate&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Gitee&lt;/code&gt;  如果没有 &lt;code&gt;cate&lt;/code&gt;  分支，会自动创建&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;步骤六：如 &lt;code&gt;cate&lt;/code&gt;  分支完全开发完毕，且测试无误，就可以将其合并到主分支 &lt;code&gt;master&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git checkout master&lt;/code&gt;  — 切换到 &lt;code&gt;master&lt;/code&gt;  主分支&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git pull origin master&lt;/code&gt;  — 将远程仓库主分支与本地主分支合并，保证当前本地主分支为最新 (执行这一步的原因为：在多人开发中，其他人可能开发地比你快，已经推送到了远程库的主分支，这时你本地的主分支就不是最新的，在后面合并时会发生冲突，为了避免这种情况发生，就需要更新本地库的主分支)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git merge cate&lt;/code&gt;  — 将 &lt;code&gt;cate&lt;/code&gt;  分支合并到主分支&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push&lt;/code&gt;  — 将本地仓库推送到远程仓库&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git branch -d cate&lt;/code&gt;  — 删除本地的 &lt;code&gt;cate&lt;/code&gt;  分支&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;完成一项功能开发&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;开发人员乙&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;介绍：已经进行过一次开发，又有了新的任务，负责开发&lt;strong&gt;搜索&lt;/strong&gt;功能&lt;/li&gt;
+&lt;li&gt;步骤一：更新本地的仓库
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git pull origin master&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;步骤二：创建功能开发分支 &lt;code&gt;search&lt;/code&gt; ，并切换到该分支
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git checkout -b search&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;重复之前的步骤三～六&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://skmcj.top/web/%E7%B2%97%E8%AF%86ECMAScript6</guid>
             <title>粗识ECMAScript6</title>
@@ -290,7 +615,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;案例展示&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;do&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;i &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34; &#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    i &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/* 输出结果&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;0 1 2 3 4 5 6 7 8 9&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;*/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;练手小程序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#练手小程序&#34;&gt;#&lt;/a&gt; 练手小程序&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/skmcj-066/pic-bed/raw/master/img/20210817162949.png&#34; alt=&#34;九九乘法表&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/skmcj/pic-bed@main/img/20210817162949.png&#34; alt=&#34;九九乘法表&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;如图，编写打印一个九九乘法表。&lt;/p&gt;
 &lt;p&gt;。&lt;/p&gt;
 &lt;p&gt;。&lt;/p&gt;
@@ -979,7 +1304,7 @@
 &lt;p&gt;迪杰斯特拉算法 (Dijkstra) 是由荷兰计算机&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQTclOTElRTUlQUQlQTYlRTUlQUUlQjYvMTIxMDExNA==&#34;&gt;科学家&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclOEIlODQlRTUlODUlOEIlRTYlOTYlQUYlRTclODklQjklRTYlOEIlODkvMjgyODg3Mg==&#34;&gt;狄克斯特拉&lt;/span&gt;于 1959 年提出的，因此又叫狄克斯特拉算法。是从一个顶点到其余各顶点的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTYlOUMlODAlRTclOUYlQUQlRTglQjclQUYlRTUlQkUlODQvNjMzNDkyMA==&#34;&gt;最短路径&lt;/span&gt;算法，解决的是有权图中最短路径问题。迪杰斯特拉算法主要特点是从起始点开始，采用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTglQjQlQUElRTUlQkYlODMlRTclQUUlOTclRTYlQjMlOTUvNTQxMTgwMA==&#34;&gt;贪心算法&lt;/span&gt;的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQUQlOTYlRTclOTUlQTUvNDAwNg==&#34;&gt;策略&lt;/span&gt;，每次遍历到始点距离最近且未访问过的顶点的邻接节点，直到扩展到终点为止。&lt;/p&gt;
 &lt;p&gt;Dijkstra 算法可用来求一个图中一个点到其他所有点的最短路径，时间复杂度为 O (n2)，可优化为 O (nlogn)。&lt;/p&gt;
 &lt;h3 id=&#34;案例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#案例&#34;&gt;#&lt;/a&gt; 案例&lt;/h3&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/skmcj-066/pic-bed/raw/master/img/20210808225823.png&#34; alt=&#34;案例&#34; height=&#34;350&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/skmcj/pic-bed@main/img/20210808225823.png&#34; alt=&#34;案例&#34; height=&#34;350&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;如图，求源点 V1 到其它几个点的最短距离。&lt;/p&gt;
 &lt;h3 id=&#34;要点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#要点&#34;&gt;#&lt;/a&gt; 要点&lt;/h3&gt;
 &lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; map&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;n&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;n&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 采用邻接链表的方式记录图信息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; dis&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;n&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 用于存储源点到其它 n-1 个点的最短距离&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;bool&lt;/span&gt; v&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;n&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;   &lt;span class=&#34;token comment&#34;&gt;// 用于记录每个点的搜索状态，false 表示未搜&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;从源点出发，每次找出 &lt;code&gt;dis&lt;/code&gt;  中离源点最近的且未走过的点，替换出发点，更新 &lt;code&gt;dis&lt;/code&gt;  的值。&lt;/p&gt;
